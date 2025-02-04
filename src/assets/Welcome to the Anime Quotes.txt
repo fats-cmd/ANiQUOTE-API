@@ -1,0 +1,35 @@
+Welcome to the Anime Quotes API. This API allows you to fetch quotes from various anime, search for quotes by keywords, retrieve random quotes, and more. 
+
+Guide to using the available endpoints
+Base Url
+https:aniquoteapi/api/v1.com
+
+Endpoints
+Fetch quotes by Anime name
+GET /api/v1/quotes/anime
+path parameter: anime_name (string) The name of the anime e.g., "One Piece"
+sample request: GET /api/v1/quotes/anime?name=One piece
+
+Fetch Random Quotes
+GET /api/v1/quotes/random
+
+Fetch quotes by Character name
+GET/api/v1/quotes/character
+path parameter: character_name (string) The name of the character e.g., "Monkey D. Luffy", "Goku".
+sample request: 
+
+Fetch quotes by Keyword
+/api/v1/quotes/search_query
+
+
+
+Free Anime Quotes API Support
+The API and site will always remain free to access at all levels.
+
+
+Contact
+Email: okogbulegoodluck@gmail.com
+
+
+V1 API
+API 
